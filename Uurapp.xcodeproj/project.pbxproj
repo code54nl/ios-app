@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5006170316E9D65E009F090D /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 5006170216E9D65E009F090D /* Globals.m */; };
+		5006171116E9F9D0009F090D /* TimeListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5006171016E9F9D0009F090D /* TimeListController.m */; };
+		503F1EDF16EF1E28001ABAAC /* Selection.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F1EDE16EF1E28001ABAAC /* Selection.m */; };
+		503F1EE416EF2D71001ABAAC /* TimeEntryP1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F1EE316EF2D71001ABAAC /* TimeEntryP1ViewController.m */; };
+		503F1EE716EF7785001ABAAC /* TimeEntryP2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F1EE616EF7785001ABAAC /* TimeEntryP2ViewController.m */; };
+		503F1EEA16EF7DBC001ABAAC /* DescriptionIDrow.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F1EE916EF7DBC001ABAAC /* DescriptionIDrow.m */; };
+		5086AA6716F0877E00531066 /* PRLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5086AA6616F0877E00531066 /* PRLabel.m */; };
+		5086AA6A16F0900200531066 /* TimeEntryP3TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5086AA6916F0900200531066 /* TimeEntryP3TableViewController.m */; };
 		508AF8FD16E731F0002D0577 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508AF8FC16E731F0002D0577 /* UIKit.framework */; };
 		508AF8FF16E731F0002D0577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508AF8FE16E731F0002D0577 /* Foundation.framework */; };
 		508AF90116E731F0002D0577 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508AF90016E731F0002D0577 /* CoreGraphics.framework */; };
@@ -18,12 +26,17 @@
 		508AF91316E731F0002D0577 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 508AF91216E731F0002D0577 /* Default-568h@2x.png */; };
 		508AF91616E731F0002D0577 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508AF91416E731F0002D0577 /* MainStoryboard.storyboard */; };
 		508AF91916E731F0002D0577 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AF91816E731F0002D0577 /* MasterViewController.m */; };
-		508AF91C16E731F0002D0577 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AF91B16E731F0002D0577 /* DetailViewController.m */; };
+		508AF91C16E731F0002D0577 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AF91B16E731F0002D0577 /* LoginViewController.m */; };
 		508AF92416E731F0002D0577 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508AF92316E731F0002D0577 /* SenTestingKit.framework */; };
 		508AF92516E731F0002D0577 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508AF8FC16E731F0002D0577 /* UIKit.framework */; };
 		508AF92616E731F0002D0577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508AF8FE16E731F0002D0577 /* Foundation.framework */; };
 		508AF92E16E731F0002D0577 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 508AF92C16E731F0002D0577 /* InfoPlist.strings */; };
 		508AF93116E731F0002D0577 /* UurappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 508AF93016E731F0002D0577 /* UurappTests.m */; };
+		50BCF56716E8A59B0001E420 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCF56616E8A59B0001E420 /* Constants.m */; };
+		50BCF56D16E8D5EB0001E420 /* WebPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BCF56C16E8D5EB0001E420 /* WebPost.m */; };
+		50C7B57E16EA0EF4007D7D9F /* TimeRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C7B57D16EA0EF4007D7D9F /* TimeRow.m */; };
+		50D68AC816F10EE800D9078D /* Uurapplogo114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D68AC716F10EE800D9078D /* Uurapplogo114x114.png */; };
+		50D68ACA16F10F3500D9078D /* Uurapplogo57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 50D68AC916F10F3500D9078D /* Uurapplogo57x57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +50,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5006170116E9D65E009F090D /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		5006170216E9D65E009F090D /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
+		5006170F16E9F9D0009F090D /* TimeListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeListController.h; sourceTree = "<group>"; };
+		5006171016E9F9D0009F090D /* TimeListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeListController.m; sourceTree = "<group>"; };
+		503F1EDD16EF1E28001ABAAC /* Selection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Selection.h; sourceTree = "<group>"; };
+		503F1EDE16EF1E28001ABAAC /* Selection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Selection.m; sourceTree = "<group>"; };
+		503F1EE216EF2D71001ABAAC /* TimeEntryP1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeEntryP1ViewController.h; sourceTree = "<group>"; };
+		503F1EE316EF2D71001ABAAC /* TimeEntryP1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeEntryP1ViewController.m; sourceTree = "<group>"; };
+		503F1EE516EF7785001ABAAC /* TimeEntryP2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeEntryP2ViewController.h; sourceTree = "<group>"; };
+		503F1EE616EF7785001ABAAC /* TimeEntryP2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeEntryP2ViewController.m; sourceTree = "<group>"; };
+		503F1EE816EF7DBC001ABAAC /* DescriptionIDrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionIDrow.h; sourceTree = "<group>"; };
+		503F1EE916EF7DBC001ABAAC /* DescriptionIDrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionIDrow.m; sourceTree = "<group>"; };
+		5086AA6516F0877E00531066 /* PRLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLabel.h; sourceTree = "<group>"; };
+		5086AA6616F0877E00531066 /* PRLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLabel.m; sourceTree = "<group>"; };
+		5086AA6816F0900200531066 /* TimeEntryP3TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeEntryP3TableViewController.h; sourceTree = "<group>"; };
+		5086AA6916F0900200531066 /* TimeEntryP3TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeEntryP3TableViewController.m; sourceTree = "<group>"; };
 		508AF8F916E731F0002D0577 /* Uurapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uurapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		508AF8FC16E731F0002D0577 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		508AF8FE16E731F0002D0577 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,14 +82,26 @@
 		508AF91516E731F0002D0577 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		508AF91716E731F0002D0577 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		508AF91816E731F0002D0577 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		508AF91A16E731F0002D0577 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		508AF91B16E731F0002D0577 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		508AF91A16E731F0002D0577 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		508AF91B16E731F0002D0577 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		508AF92216E731F0002D0577 /* UurappTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UurappTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		508AF92316E731F0002D0577 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		508AF92B16E731F0002D0577 /* UurappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UurappTests-Info.plist"; sourceTree = "<group>"; };
 		508AF92D16E731F0002D0577 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		508AF92F16E731F0002D0577 /* UurappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UurappTests.h; sourceTree = "<group>"; };
 		508AF93016E731F0002D0577 /* UurappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UurappTests.m; sourceTree = "<group>"; };
+		50BCF55E16E887F50001E420 /* Uurapp-logo-320x103.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Uurapp-logo-320x103.png"; path = "../../Images en Hulpbestanden/Uurapp-logo-320x103.png"; sourceTree = "<group>"; };
+		50BCF56516E8A59A0001E420 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		50BCF56616E8A59B0001E420 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		50BCF56B16E8D5EB0001E420 /* WebPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPost.h; sourceTree = "<group>"; };
+		50BCF56C16E8D5EB0001E420 /* WebPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPost.m; sourceTree = "<group>"; };
+		50C7B57C16EA0EF4007D7D9F /* TimeRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeRow.h; sourceTree = "<group>"; };
+		50C7B57D16EA0EF4007D7D9F /* TimeRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeRow.m; sourceTree = "<group>"; };
+		50D68AC716F10EE800D9078D /* Uurapplogo114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uurapplogo114x114.png; sourceTree = "<group>"; };
+		50D68AC916F10F3500D9078D /* Uurapplogo57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Uurapplogo57x57.png; sourceTree = "<group>"; };
+		50D68ACD16F1103C00D9078D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		50D68ACF16F1105400D9078D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		50D68AD116F1106B00D9078D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +128,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		503F1EE016EF2D30001ABAAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				508AF91716E731F0002D0577 /* MasterViewController.h */,
+				508AF91816E731F0002D0577 /* MasterViewController.m */,
+				508AF91A16E731F0002D0577 /* LoginViewController.h */,
+				508AF91B16E731F0002D0577 /* LoginViewController.m */,
+				5006170F16E9F9D0009F090D /* TimeListController.h */,
+				5006171016E9F9D0009F090D /* TimeListController.m */,
+				503F1EE216EF2D71001ABAAC /* TimeEntryP1ViewController.h */,
+				503F1EE316EF2D71001ABAAC /* TimeEntryP1ViewController.m */,
+				503F1EE516EF7785001ABAAC /* TimeEntryP2ViewController.h */,
+				503F1EE616EF7785001ABAAC /* TimeEntryP2ViewController.m */,
+				5086AA6816F0900200531066 /* TimeEntryP3TableViewController.h */,
+				5086AA6916F0900200531066 /* TimeEntryP3TableViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		503F1EE116EF2D41001ABAAC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				50BCF56516E8A59A0001E420 /* Constants.h */,
+				50BCF56616E8A59B0001E420 /* Constants.m */,
+				50BCF56B16E8D5EB0001E420 /* WebPost.h */,
+				50BCF56C16E8D5EB0001E420 /* WebPost.m */,
+				5006170116E9D65E009F090D /* Globals.h */,
+				5006170216E9D65E009F090D /* Globals.m */,
+				50C7B57C16EA0EF4007D7D9F /* TimeRow.h */,
+				50C7B57D16EA0EF4007D7D9F /* TimeRow.m */,
+				503F1EE816EF7DBC001ABAAC /* DescriptionIDrow.h */,
+				503F1EE916EF7DBC001ABAAC /* DescriptionIDrow.m */,
+				503F1EDD16EF1E28001ABAAC /* Selection.h */,
+				503F1EDE16EF1E28001ABAAC /* Selection.m */,
+				5086AA6516F0877E00531066 /* PRLabel.h */,
+				5086AA6616F0877E00531066 /* PRLabel.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		508AF8F016E731F0002D0577 = {
 			isa = PBXGroup;
 			children = (
+				50D68AD116F1106B00D9078D /* Default.png */,
+				50D68ACF16F1105400D9078D /* Default@2x.png */,
+				50D68ACD16F1103C00D9078D /* Default-568h@2x.png */,
+				50D68AC916F10F3500D9078D /* Uurapplogo57x57.png */,
+				50D68AC716F10EE800D9078D /* Uurapplogo114x114.png */,
 				508AF90216E731F0002D0577 /* Uurapp */,
 				508AF92916E731F0002D0577 /* UurappTests */,
 				508AF8FB16E731F0002D0577 /* Frameworks */,
@@ -120,14 +206,12 @@
 		508AF90216E731F0002D0577 /* Uurapp */ = {
 			isa = PBXGroup;
 			children = (
+				503F1EE116EF2D41001ABAAC /* Classes */,
+				503F1EE016EF2D30001ABAAC /* Views */,
+				508AF90316E731F0002D0577 /* Supporting Files */,
 				508AF90B16E731F0002D0577 /* AppDelegate.h */,
 				508AF90C16E731F0002D0577 /* AppDelegate.m */,
 				508AF91416E731F0002D0577 /* MainStoryboard.storyboard */,
-				508AF91716E731F0002D0577 /* MasterViewController.h */,
-				508AF91816E731F0002D0577 /* MasterViewController.m */,
-				508AF91A16E731F0002D0577 /* DetailViewController.h */,
-				508AF91B16E731F0002D0577 /* DetailViewController.m */,
-				508AF90316E731F0002D0577 /* Supporting Files */,
 			);
 			path = Uurapp;
 			sourceTree = "<group>";
@@ -135,6 +219,7 @@
 		508AF90316E731F0002D0577 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				50BCF55E16E887F50001E420 /* Uurapp-logo-320x103.png */,
 				508AF90416E731F0002D0577 /* Uurapp-Info.plist */,
 				508AF90516E731F0002D0577 /* InfoPlist.strings */,
 				508AF90816E731F0002D0577 /* main.m */,
@@ -241,6 +326,8 @@
 				508AF91116E731F0002D0577 /* Default@2x.png in Resources */,
 				508AF91316E731F0002D0577 /* Default-568h@2x.png in Resources */,
 				508AF91616E731F0002D0577 /* MainStoryboard.storyboard in Resources */,
+				50D68ACA16F10F3500D9078D /* Uurapplogo57x57.png in Resources */,
+				50D68AC816F10EE800D9078D /* Uurapplogo114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +365,18 @@
 				508AF90916E731F0002D0577 /* main.m in Sources */,
 				508AF90D16E731F0002D0577 /* AppDelegate.m in Sources */,
 				508AF91916E731F0002D0577 /* MasterViewController.m in Sources */,
-				508AF91C16E731F0002D0577 /* DetailViewController.m in Sources */,
+				508AF91C16E731F0002D0577 /* LoginViewController.m in Sources */,
+				50BCF56716E8A59B0001E420 /* Constants.m in Sources */,
+				50BCF56D16E8D5EB0001E420 /* WebPost.m in Sources */,
+				5006170316E9D65E009F090D /* Globals.m in Sources */,
+				5006171116E9F9D0009F090D /* TimeListController.m in Sources */,
+				50C7B57E16EA0EF4007D7D9F /* TimeRow.m in Sources */,
+				503F1EDF16EF1E28001ABAAC /* Selection.m in Sources */,
+				503F1EE416EF2D71001ABAAC /* TimeEntryP1ViewController.m in Sources */,
+				503F1EE716EF7785001ABAAC /* TimeEntryP2ViewController.m in Sources */,
+				503F1EEA16EF7DBC001ABAAC /* DescriptionIDrow.m in Sources */,
+				5086AA6716F0877E00531066 /* PRLabel.m in Sources */,
+				5086AA6A16F0900200531066 /* TimeEntryP3TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +488,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Uurapp/Uurapp-Prefix.pch";
 				INFOPLIST_FILE = "Uurapp/Uurapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +500,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Uurapp/Uurapp-Prefix.pch";
 				INFOPLIST_FILE = "Uurapp/Uurapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -459,6 +559,7 @@
 				508AF93616E731F0002D0577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		508AF93716E731F0002D0577 /* Build configuration list for PBXNativeTarget "UurappTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +568,7 @@
 				508AF93916E731F0002D0577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
